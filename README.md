@@ -1,5 +1,7 @@
 # FileListRenamerCSV
 
+![Logo FileListRenamerCSV](logo.png)
+
 FileListRenamerCSV is a command-line tool that allows you to list the files in a directory and save them to a CSV file. It can also rename files based on mappings provided in a CSV.
 
 ## Features
