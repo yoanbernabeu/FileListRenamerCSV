@@ -1,7 +1,5 @@
 # FileListRenamerCSV
 
-![Logo FileListRenamerCSV](logo.png)
-
 FileListRenamerCSV is a command-line tool that allows you to list the files in a directory and save them to a CSV file. It can also rename files based on mappings provided in a CSV.
 
 ## Features
@@ -64,3 +62,5 @@ go build -o FileListRenamerCSV
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+![Logo FileListRenamerCSV](logo.png)
