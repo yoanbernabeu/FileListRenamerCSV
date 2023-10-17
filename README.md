@@ -2,6 +2,20 @@
 
 FileListRenamerCSV is a command-line tool that allows you to list the files in a directory and save them to a CSV file. It can also rename files based on mappings provided in a CSV.
 
+## Table of Contents
+
+- [FileListRenamerCSV](#filelistrenamercsv)
+  - [Table of Contents](#table-of-contents)
+  - [Features](#features)
+  - [Usage](#usage)
+    - [Listing Files](#listing-files)
+    - [Renaming Files](#renaming-files)
+  - [Installation](#installation)
+    - [From binary](#from-binary)
+    - [From source](#from-source)
+  - [License](#license)
+
+
 ## Features
 
 - List all the files in a given directory and save them to a CSV file with an additional empty column (for renaming).
