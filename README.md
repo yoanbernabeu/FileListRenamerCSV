@@ -29,6 +29,36 @@ FileListRenamerCSV rename /path/to/csv.csv /path/to/directory
 
 Make sure the CSV file has the original filename in the first column and the new name in the second column.
 
+## Installation
+
+### From binary
+
+* Linux/Darwin
+
+_Using cURL_
+
+```bash
+wget -qO- https://raw.githubusercontent.com/yoanbernabeu/FileListRenamerCSV/main/install.sh | bash
+```
+
+_Using wget_
+
+```bash
+curl -sL https://raw.githubusercontent.com/yoanbernabeu/FileListRenamerCSV/main/install.sh | bash
+```
+
+* Windows (Not tested): Download the [latest release](https://github.com/yoanbernabeu/FileListRenamerCSV/releases)
+
+### From source
+
+> FileListRenamerCSV is written in Go, so you need to install it first.
+
+```bash
+git clone git@github.com:yoanbernabeu/FileListRenamerCSV.git
+cd FileListRenamerCSV
+go build -o FileListRenamerCSV
+```
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
