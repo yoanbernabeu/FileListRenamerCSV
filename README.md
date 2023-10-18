@@ -13,6 +13,8 @@ FileListRenamerCSV is a command-line tool that allows you to list the files in a
     - [Renaming Files](#renaming-files)
   - [Installation](#installation)
     - [From binary](#from-binary)
+      - [Linux/Darwin](#linuxdarwin)
+      - [Windows](#windows)
     - [From source](#from-source)
   - [License](#license)
 
@@ -51,7 +53,7 @@ notes.md,
 
 > Note that there's an additional empty column for potential renaming targets or other annotations.
 
-1. Renaming Files using a CSV
+2. Renaming Files using a CSV
 
 Suppose you have a CSV file (`output.csv`) with the following content:
 
@@ -103,7 +105,7 @@ Make sure the CSV file has the original filename in the first column and the new
 
 ### From binary
 
-* Linux/Darwin
+#### Linux/Darwin
 
 _Using cURL_
 
@@ -117,7 +119,20 @@ _Using wget_
 curl -sL https://raw.githubusercontent.com/yoanbernabeu/FileListRenamerCSV/main/install.sh | bash
 ```
 
-* Windows (Not tested): Download the [latest release](https://github.com/yoanbernabeu/FileListRenamerCSV/releases)
+#### Windows
+
+* Download the [latest release](https://github.com/yoanbernabeu/FileListRenamerCSV/releases)
+
+* Unzip the file and copy the executable to your desired location (e.g. `C:\Tools`)
+
+* Add the path (e.g. `C:\Tools`) to your PATH environment variable
+  * Open the Start Search, type in "env", and choose "Edit the system environment variables"
+  * Click the "Environment Variables..." button
+  * Under the "System Variables" section (the lower half), find the row with "Path" in the first column, and click edit
+  * The "Edit environment variable" UI will appear. Here, you can click "New" and type in the new path you want to add (e.g. `C:\Tools`)
+  * Click OK
+
+* Open a new terminal and run `FileListRenamerCSV`
 
 ### From source
 
